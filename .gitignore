@@ -102,4 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+<<<<<<< HEAD
 {"mode":"full","isActive":false}
+=======
+>>>>>>> 4e4f6fa174beddf96822ef1bfd3b106b135e7db7
