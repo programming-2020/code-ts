@@ -1,0 +1,22 @@
+{
+  "name": "typescript_01",
+  "version": "1.0.0",
+  "description": "Typescript - The Complete Developer's Guide",
+  "main": "./dist/app.js",
+  "scripts": {
+    "run-tsc": "npx tsc",
+    "run-nodemon": "npx nodemon ./dist/app.js",
+    "start": "npx tsc & npx nodemon -q -w ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "npx": "^10.2.2",
+    "typescript": "^4.3.5"
+  }
+}
